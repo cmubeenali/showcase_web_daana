@@ -4,7 +4,7 @@
 <!-- Mirrored from html.tonatheme.com/2018/Bizcon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Jul 2018 17:44:44 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Bizcon Template Html5 | Home V1</title>
+<title>Daana Trading | HOME</title>
 
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,1069 +21,1046 @@
 <!--Favicon-->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-route.min.js"></script>
+<script src="js/angular/daana-main.js"></script>
 </head>
 
 <body>
-<div class="page-wrapper">
+<div ng-app="daana">
+    <div class="page-wrapper">
  	
 
-    <!-- Preloader -->
-    <div class="preloader"></div>
-    <!-- Preloader -->
-
-
-    <!--Header Top-->
-    <section class="header-top">
-        <div class="container clearfix">
-            <div class="left-side">
-                <ul class="social-links">
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+        <!-- Preloader -->
+        <div class="preloader"></div>
+        <!-- Preloader -->
+    
+    
+        <!--Header Top-->
+        <section class="header-top">
+            <div class="container clearfix">
+                <div class="left-side">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <ul class="right-side">
+                    <li><span><i class="fa fa-phone" aria-hidden="true"></i>+1 (200) 345 6789</span></li>
+                    <li><span><i class="fa fa-envelope-open" aria-hidden="true"></i><a href="#">info@Bizconsult.com</a></span></li>
+                    <li>
+                        <div class="link-btn">
+                            <a href="#" class="btn-style-one">request quote</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            <ul class="right-side">
-                <li><span><i class="fa fa-phone" aria-hidden="true"></i>+1 (200) 345 6789</span></li>
-                <li><span><i class="fa fa-envelope-open" aria-hidden="true"></i><a href="#">info@Bizconsult.com</a></span></li>
-                <li>
-                    <div class="link-btn">
-                        <a href="#" class="btn-style-one">request quote</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!--End Header Top-->
-
-       
-    <!--Main Header-->
-    <header class="main-header sticky-header">
-        <div class="container clearfix">
-            <div class="logo">
-                <figure>
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
-                </figure>
+        </section>
+        <!--End Header Top-->
+    
+           
+        <!--Main Header-->
+        <header class="main-header sticky-header">
+            <div class="container clearfix">
+                <div class="logo">
+                    <figure>
+                        <a href="index.html"><img src="images/logo.png" alt=""style="width: 200px;height: 50px;"></a>
+                    </figure>
+                </div>
+                <div class="header-area clearfix">
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->      
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>           
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="dropdown current"><a href="index.html">Home</a>
+                                    <ul>
+                                        <li><a href="index.html">Home v1</a></li>
+                                        <li><a href="index-2.html">Home v2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About Us</a></li>                    
+                                <li class="dropdown"><a href="service.html">Services</a>
+                                    <ul>
+                                        <li><a href="service.html">Services</a></li>
+                                        <li><a href="service-details.html">Services details</a></li>
+                                    </ul>                                
+                                </li>
+                                <li class="dropdown"><a href="#">pages</a>
+                                    <ul>
+                                        <li><a href="error.html">error page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="blog.html">Blog</a>
+                                    <ul>
+                                        <li><a href="blog.html">our blog</a></li>
+                                        <li><a href="blog-details.html">news details</a></li>
+                                    </ul>                               
+                                </li>                   
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>                    
+                    </nav>
+                    <ul class="qart">
+                        <li>
+                            <a href="#">
+                                <i class="flaticon-shopping-bag"></i>
+                                <span>2</span>
+                            </a>
+                        </li>
+                        <li class="search-area">
+                            <div class="seach-toggle active"><i class="flaticon-search"></i></div>
+                            <div class="search-box">
+                                <form method="post" action="http://html.tonatheme.com/2018/Bizcon/index.html">
+                                    <div class="form-group">
+                                        <input type="search" name="search" placeholder="Search" required="">
+                                        <button type="submit"><i class="flaticon-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>                    
             </div>
-            <div class="header-area clearfix">
-                <nav class="main-menu">
-                    <div class="navbar-header">
-                        <!-- Toggle Button -->      
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>           
-                    <div class="navbar-collapse collapse clearfix">
-                        <ul class="navigation clearfix">
-                            <li class="dropdown current"><a href="index.html">Home</a>
-                                <ul>
-                                    <li><a href="index.html">Home v1</a></li>
-                                    <li><a href="index-2.html">Home v2</a></li>
-                                </ul>
+        </header>
+        <!--End Main Header -->
+        
+        
+        <!--Main Slider-->
+        <section class="main-slider">
+            <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+                <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+                    <ul>
+                        
+                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slider/1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider/1.jpg"> 
+                        
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['600','600','550','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['-100','-100','-120','-120']"
+                        data-x="['left','left','left','left']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <h1>Ultimate source of building materials</h1>
+                        </div>
+                        
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['620','620','620','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['15','20','20','0']"
+                        data-x="['left','left','left','left']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <!-- <p>We are gathering & selecting the best ideas, growing it for the business & taking its full advantage to compete !!!</p> -->
+                        </div>
+                        
+                        <div class="tp-caption tp-resizeme" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['500','500','500','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['115','130','130','130']"
+                        data-x="['left','left','left','left']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <!-- <div class="button">
+                                <a href="#" class="btn-style-one">learn more</a>     
+                            </div> -->
+                        </div>
+                        
+                        </li>
+                        
+                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slider/2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider/2.jpg">
+                        
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['600','600','550','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['-100','-100','-120','-120']"
+                        data-x="['left','left','left','left']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <h1>Safety and security products</h1>
+                        </div>
+                        
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['620','620','620','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['15','20','20','0']"
+                        data-x="['left','left','left','left']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <!-- <p>We are gathering & selecting the best ideas, growing it for the business & taking its full advantage to compete !!!</p> -->
+                        </div>
+                        
+                        <div class="tp-caption tp-resizeme" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['500','500','500','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['115','130','130','130']"
+                        data-x="['left','left','left','left']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <!-- <div class="button">
+                                <a href="#" class="btn-style-one">learn more</a>     
+                            </div> -->
+                        </div>
+                        
+                        </li>                 
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End Main Slider--> 
+    
+    
+        <!--About Section-->
+        <section class="about-section">
+            <div class="container">
+                <div class="text-area">
+                    <div class="section-title text-center">
+                        <h2>The Ultimate Source for Building Materials</h2>
+                        <p class="text">We are a dynamic and innovative trading company with a wide range of building materials and services.
+                            We owe our success to the vast and diversified range of products, expert knowledge of the markets and additional multi-disciplined background in construction, to meet, supply and exceed most of project needs powered by qualified professional team.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End About Section-->
+    
+    
+        <!--Features Section-->
+        <section class="features-section">
+            <div class="container">
+                <div class="features-area">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-worldwide"></i>
+                                <a href="#"><h6>Market Research</h6></a>
+                                <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
+                                <div class="link-btn">
+                                    <a href="#">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-graphic"></i>
+                                <a href="#"><h6>Business Consulting</h6></a>
+                                <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
+                                <div class="link-btn">
+                                    <a href="#">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-contract"></i>
+                                <a href="#"><h6>Feasibility Studies</h6></a>
+                                <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
+                                <div class="link-btn">
+                                    <a href="#">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-donation"></i>
+                                <a href="#"><h6>Investment Trade</h6></a>
+                                <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
+                                <div class="link-btn">
+                                    <a href="#">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <!--Features Section-->
+    
+    
+        <!--Welcome Section-->
+        <section class="welcome-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 col-xs-12">
+                        <div class="section-title">
+                            <h3>About Bizcon</h3>                        
+                        </div>
+                        <div class="content-text">
+                            <h1>25</h1>
+                            <span>years of<br>TRUST<br>and<br>excellence</span>
+                        </div>                       
+                    </div>
+                    <div class="col-lg-7 col-md-9 col-xs-12">
+                        <div class="images-holder">
+                            <div class="images-box">
+                                <figure>
+                                    <img src="images/resource/1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="text">
+                                <span>Saboris nisi ut aliquipe consequat duis aute irue dolor reprehender voluptate<br>dolore fugiat nulla pariatur excepteur sint occaecat.</span>
+                                <p>Consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet sectetr adipisic elit sed vena eiusmod. Lorem ipsum dolor sit amet, consectetur dipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis aute irure dolor in reprehenderit.</p>
+                            </div>                            
+                            <div class="sub-title">
+                                <h6>James Sienna</h6>
+                                <span>Director & CEO</span>
+                                <p>James  Sienna .</p>
+                            </div>                                                                             
+                        </div>                                            
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-xs-12">
+                        <ul class="item-list">
+                            <li class="item">
+                                <div class="icon-box">
+                                    <i class="flaticon-money"></i>
+                                </div>
+                                <a href="#"><h6>Realiable <br>& Enthusiastic</h6></a>
                             </li>
-                            <li><a href="about.html">About Us</a></li>                    
-                            <li class="dropdown"><a href="service.html">Services</a>
-                                <ul>
-                                    <li><a href="service.html">Services</a></li>
-                                    <li><a href="service-details.html">Services details</a></li>
-                                </ul>                                
+                            <li class="item">
+                                <div class="icon-box">
+                                    <i class="flaticon-trophy"></i>
+                                </div>
+                                <a href="#"><h6>Realiable <br>& Enthusiastic</h6></a>
                             </li>
-                            <li class="dropdown"><a href="#">pages</a>
-                                <ul>
-                                    <li><a href="error.html">error page</a></li>
-                                </ul>
+                            <li class="item">
+                                <div class="icon-box">
+                                    <i class="flaticon-networking"></i>
+                                </div>
+                                <a href="#"><h6>Realiable <br>& Enthusiastic</h6></a>
                             </li>
-                            <li class="dropdown"><a href="blog.html">Blog</a>
-                                <ul>
-                                    <li><a href="blog.html">our blog</a></li>
-                                    <li><a href="blog-details.html">news details</a></li>
-                                </ul>                               
-                            </li>                   
-                            <li><a href="contact.html">Contact</a></li>
                         </ul>
-                    </div>                    
-                </nav>
-                <ul class="qart">
-                    <li>
-                        <a href="#">
-                            <i class="flaticon-shopping-bag"></i>
-                            <span>2</span>
-                        </a>
-                    </li>
-                    <li class="search-area">
-                        <div class="seach-toggle active"><i class="flaticon-search"></i></div>
-                        <div class="search-box">
-                            <form method="post" action="http://html.tonatheme.com/2018/Bizcon/index.html">
-                                <div class="form-group">
-                                    <input type="search" name="search" placeholder="Search" required="">
-                                    <button type="submit"><i class="flaticon-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Welcome Section-->
+    
+    
+        <!--Fact Counter-->
+        <section class="fact-counter" style="background: url(images/background/1.jpg);">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="counter-outer clearfix">
+                        <!--Column-->
+                        <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
+                            <div class="item">
+                                <div class="count-outer">                               
+                                    <span class="count-text" data-speed="3000" data-stop="3465">0</span>
+                                </div>
+                                <h4 class="counter-title">Worldwide Trusted Clients</h4>
+                            </div>                            
+                        </article>
+                        
+                        <!--Column-->
+                        <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
+                            <div class="item">
+                                <div class="count-outer">
+                                    <span class="count-text" data-speed="3000" data-stop="4908">0</span>
+                                </div>
+                                <h4 class="counter-title">Projects We Delivered </h4>
+                            </div>
+                        </article>
+                        
+                        <!--Column-->
+                        <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
+                            <div class="item">
+                                <div class="count-outer">
+                                    <span class="count-text" data-speed="3000" data-stop="12307">0</span>
+                                </div>
+                                <h4 class="counter-title">Companies Consultations</h4>
+                            </div>
+                        </article>
+                        
+                        <!--Column-->
+                        <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
+                            <div class="item">
+                                <div class="count-outer">
+                                    <span class="count-text" data-speed="3000" data-stop="9643">0</span>
+                                </div>
+                                <h4 class="counter-title">Orders in the Queue List</h4>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Fact Counter-->
+    
+    
+        <!--Project Section-->
+        <section class="project-section">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Recent Projects</h3>
+                </div>
+                <div class="project-carousel">
+                    <div class="item-holder">
+                        <div class="image-box">
+                            <figure>
+                                <img src="images/project/1.jpg" alt="">
+                            </figure>
+                            <div class="image-text text-center">
+                                <h6>Financial Institutions</h6>
+                                <span>Startup Business</span>
+                            </div>
+                        </div>
+                        <div class="overly-box">
+                            <a href="#"><h6>Financial Institutions</h6></a>
+                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur.</p>
+                            <div class="link-btn">
+                                <a href="#">view project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-holder">
+                        <div class="image-box">
+                            <figure>
+                                <img src="images/project/2.jpg" alt="">
+                            </figure>
+                            <div class="image-text text-center">
+                                <h6>Collective Business</h6>
+                                <span>Startup Business</span>
+                            </div>
+                        </div>
+                        <div class="overly-box">
+                            <a href="#"><h6>Collective Business</h6></a>
+                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur.</p>
+                            <div class="link-btn">
+                                <a href="#">view project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-holder">
+                        <div class="image-box">
+                            <figure>
+                                <img src="images/project/3.jpg" alt="">
+                            </figure>
+                            <div class="image-text text-center">
+                                <h6>Data Flow Analysis</h6>
+                                <span>Startup Business</span>
+                            </div>
+                        </div>
+                        <div class="overly-box">
+                            <a href="#"><h6>Data Flow Analysis</h6></a>
+                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur.</p>
+                            <div class="link-btn">
+                                <a href="#">view project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-btn text-center">
+                    <a href="#" class="btn-style-two">all projects</a>
+                </div>
+            </div>
+        </section>
+        <!--End Project Section-->
+    
+    
+        <!--Our Advisors-->
+        <section class="our-advisors">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Meet Our Advisors</h3>
+                    <p>Our Consultants are Industry Experts who are Bringing Unique Perspective</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="item-holder">
+                            <div class="image-box">
+                                <figure>
+                                    <a href="#"><img src="images/resource/1.png" alt=""></a>
+                                </figure>
+                                <ul class="overly-box text-center">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="image-text">
+                                <a href="#"><h6>James Sienna</h6></a>
+                                <p>Director & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="item-holder">
+                            <div class="image-box">
+                                <figure>
+                                    <a href="#"><img src="images/resource/2.png" alt=""></a>
+                                </figure>
+                                <ul class="overly-box text-center">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="image-text">
+                                <a href="#"><h6>Peter Davis</h6></a>
+                                <p>Tech Advisor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="item-holder">
+                            <div class="image-box">
+                                <figure>
+                                    <a href="#"><img src="images/resource/3.png" alt=""></a>
+                                </figure>
+                                <ul class="overly-box text-center">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="image-text">
+                                <a href="#"><h6>Catherine Matt</h6></a>
+                                <p>Partner In-Cheif</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="item-holder">
+                            <div class="image-box">
+                                <figure>
+                                    <a href="#"><img src="images/resource/4.png" alt=""></a>
+                                </figure>
+                                <ul class="overly-box text-center">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="image-text">
+                                <a href="#"><h6>Charles Luke</h6></a>
+                                <p>Senior Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Our Advisors-->
+    
+    
+        <!--Testimonials Section-->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-xs-12">
+                        <div class="section-title">
+                            <h3>What Client’s Say</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12 col-xs-12">
+                        <div class="testimonials-slide">
+                            <div class="item-holder">
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="images/testimonials/1.png" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <i class="flaticon-text-quotes"></i>
+                                        <h6>Tim Cook</h6>                                    
+                                        <span>owner</span>
+                                    </div>
+                                </div>
+                                <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
+                            </div>
+                            <div class="item-holder">
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="images/testimonials/2.png" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <i class="flaticon-text-quotes"></i>
+                                        <h6>William Joe</h6>
+                                        <span>manager</span>
+                                    </div>
+                                </div>
+                                <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
+                            </div>
+                            <div class="item-holder">
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="images/testimonials/1.png" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <i class="flaticon-text-quotes"></i>
+                                        <h6>Tim Cook</h6>                                    
+                                        <span>owner</span>
+                                    </div>
+                                </div>
+                                <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
+                            </div>
+                            <div class="item-holder">
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="images/testimonials/2.png" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <i class="flaticon-text-quotes"></i>
+                                        <h6>William Joe</h6>
+                                        <span>manager</span>
+                                    </div>
+                                </div>
+                                <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
+                            </div>
+                            <div class="item-holder">
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="images/testimonials/1.png" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <i class="flaticon-text-quotes"></i>
+                                        <h6>Tim Cook</h6>                                    
+                                        <span>owner</span>
+                                    </div>
+                                </div>
+                                <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
+                            </div>
+                            <div class="item-holder">
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="images/testimonials/2.png" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <i class="flaticon-text-quotes"></i>
+                                        <h6>William Joe</h6>
+                                        <span>manager</span>
+                                    </div>
+                                </div>
+                                <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Testimonials Section-->
+    
+    
+        <!--Call To Action-->
+        <section class="call-to-action" style="background: url(images/background/2.jpg);">
+            <div class="container">
+                <div class="text-area text-center">
+                    <h6>We deliver outstanding service to every client</h6>
+                    <h3>Which Leads to Greater Business Growth</h3>
+                    <div class="link-btn">
+                        <a href="#" class="btn-style-two">learn more</a>
+                        <a href="#" class="btn-style-one">purchase now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Call To Action-->
+    
+    
+        <!--News Section-->
+        <section class="news-section">
+            <div class="container">
+                <div class="section-title text">
+                    <h3>Bizcon News</h3>
+                    <p>Accusantium ipsum dolore ludantium beatae</p>
+                </div>
+                <div class="two-column-carousel">
+                    <div class="item-holder">
+                        <div class="image-box">
+                            <figure>
+                                <a href="blog-details.html"><img src="images/blog/1.jpg" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="image-text">
+                            <ul>
+                                <li><span>Posted</span>25 August 2017</li>
+                                <li><span><i class="fa fa-comment-o" aria-hidden="true"></i></span>217</li>
+                            </ul>
+                            <a href="blog-details.html"><h6>Digital Marketing Trends That Drive Sales</h6></a>
+                            <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
+                            <div class="link-btn">
+                                <a href="blog-details.html">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-holder">
+                        <div class="image-box">
+                            <figure>
+                                <a href="blog-details.html"><img src="images/blog/2.jpg" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="image-text">
+                            <ul>
+                                <li><span>Posted</span>25 August 2017</li>
+                                <li><span><i class="fa fa-comment-o" aria-hidden="true"></i></span>217</li>
+                            </ul>
+                            <a href="blog-details.html"><h6>Using Hashtag Effectively In Social Media</h6></a>
+                            <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
+                            <div class="link-btn">
+                                <a href="blog-details.html">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-holder">
+                        <div class="image-box">
+                            <figure>
+                                <a href="blog-details.html"><img src="images/blog/3.jpg" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="image-text">
+                            <ul>
+                                <li><span>Posted</span>25 August 2017</li>
+                                <li><span><i class="fa fa-comment-o" aria-hidden="true"></i></span>217</li>
+                            </ul>
+                            <a href="blog-details.html"><h6>Digital Marketing Trends That Drive Sales</h6></a>
+                            <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
+                            <div class="link-btn">
+                                <a href="blog-details.html">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End News Section-->
+    
+    
+        <!--Request Section-->
+        <section class="request-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Request a Call Back</h3>
+                    <p>Our Consultants are Industry Experts who are Bringing Unique Perspective</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-xs-12">
+                        <div class="right-side">
+                            <h6>Thank you for your interest in Bizcon.</h6>
+                            <p>Please fill-in the form below for questions about our services & send us. Our representatives will reply you in 24 hours.</p>
+                            <form class="contact_form" name="contact_form" action="http://html.tonatheme.com/2018/Bizcon/sendmail.php" method="post">
+                                <div class="row clearfix">
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="email" name="form_email" class="form-control" value="" placeholder="Email" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" name="form_subject" class="form-control" value="" placeholder="Inquiry Subject" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea name="form_message" class="form-control textarea required" placeholder="Subject"></textarea>
+                                        </div>
+                                        <div class="form-group form-bottom">
+                                            <input name="form_botcheck" class="form-control" type="hidden" value="">
+                                            <button class="btn-style-one" type="submit" data-loading-text="Please wait...">send message</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
-                    </li>
-                </ul>
-            </div>                    
-        </div>
-    </header>
-    <!--End Main Header -->
-    
-    
-    <!--Main Slider-->
-    <section class="main-slider">
-        <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
-            <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
-                <ul>
-                    
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slider/1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider/1.jpg"> 
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['600','600','550','420']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['-100','-100','-120','-120']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                        <h1>Building relations more stronger</h1>
                     </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['620','620','620','420']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['15','20','20','0']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                        <p>We are gathering & selecting the best ideas, growing it for the business & taking its full advantage to compete !!!</p>
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['500','500','500','420']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['115','130','130','130']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                        <div class="button">
-                            <a href="#" class="btn-style-one">learn more</a>     
-                        </div>
-                    </div>
-                    
-                    </li>
-                    
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slider/2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider/2.jpg">
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['600','600','550','420']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['-100','-100','-120','-120']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                        <h1>Building relations more stronger</h1>
-                    </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['620','620','620','420']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['15','20','20','0']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                        <p>We are gathering & selecting the best ideas, growing it for the business & taking its full advantage to compete !!!</p>
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['500','500','500','420']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['115','130','130','130']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                        <div class="button">
-                            <a href="#" class="btn-style-one">learn more</a>     
-                        </div>
-                    </div>
-                    
-                    </li>                 
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--End Main Slider--> 
-
-
-    <!--About Section-->
-    <section class="about-section">
-        <div class="container">
-            <div class="text-area">
-                <div class="section-title text-center">
-                    <h2>We Create Digital Opportunities</h2>
-                    <p class="text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim idm est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium ipsum doloremque laudantium beatae totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto vitae dicta sunt explicabo.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12 services-block-one">
-                        <div class="item">
-                            <i class="flaticon-target"></i>
-                            <a href="#"><h6>Prototype<br>Marketing Strategy</h6></a>
-                            <div class="link-btn">
-                                <a href="#"><span class="flaticon-login"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 services-block-one">
-                        <div class="item">
-                            <i class="flaticon-line-chart"></i>
-                            <a href="#"><h6>Growing Mass<br>of Customer Data</h6></a>
-                            <div class="link-btn">
-                                <a href="#"><span class="flaticon-login"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 services-block-one">
-                        <div class="item">
-                            <i class="flaticon-improve"></i>
-                            <a href="#"><h6>Transforming<br>Digital Companies</h6></a>
-                            <div class="link-btn">
-                                <a href="#"><span class="flaticon-login"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End About Section-->
-
-
-    <!--Features Section-->
-    <section class="features-section">
-        <div class="container">
-            <div class="features-area">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-worldwide"></i>
-                            <a href="#"><h6>Market Research</h6></a>
-                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
-                            <div class="link-btn">
-                                <a href="#">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-graphic"></i>
-                            <a href="#"><h6>Business Consulting</h6></a>
-                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
-                            <div class="link-btn">
-                                <a href="#">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-contract"></i>
-                            <a href="#"><h6>Feasibility Studies</h6></a>
-                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
-                            <div class="link-btn">
-                                <a href="#">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-donation"></i>
-                            <a href="#"><h6>Investment Trade</h6></a>
-                            <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet consectetr adipisic elit sed vena eiusmod.</p>
-                            <div class="link-btn">
-                                <a href="#">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>                
-        </div>
-    </section>
-    <!--Features Section-->
-
-
-    <!--Welcome Section-->
-    <section class="welcome-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-xs-12">
-                    <div class="section-title">
-                        <h3>About Bizcon</h3>                        
-                    </div>
-                    <div class="content-text">
-                        <h1>25</h1>
-                        <span>years of<br>TRUST<br>and<br>excellence</span>
-                    </div>                       
-                </div>
-                <div class="col-lg-7 col-md-9 col-xs-12">
-                    <div class="images-holder">
-                        <div class="images-box">
+                    <div class="col-lg-6 col-sm-12 col-xs-12">
+                        <div class="image-box">
                             <figure>
-                                <img src="images/resource/1.jpg" alt="">
+                                <img src="images/resource/2.jpg" alt="">
                             </figure>
                         </div>
-                        <div class="text">
-                            <span>Saboris nisi ut aliquipe consequat duis aute irue dolor reprehender voluptate<br>dolore fugiat nulla pariatur excepteur sint occaecat.</span>
-                            <p>Consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur lorem dolor git amet sectetr adipisic elit sed vena eiusmod. Lorem ipsum dolor sit amet, consectetur dipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            <p>Aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis aute irure dolor in reprehenderit.</p>
-                        </div>                            
-                        <div class="sub-title">
-                            <h6>James Sienna</h6>
-                            <span>Director & CEO</span>
-                            <p>James  Sienna .</p>
-                        </div>                                                                             
-                    </div>                                            
+                    </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-xs-12">
-                    <ul class="item-list">
-                        <li class="item">
-                            <div class="icon-box">
-                                <i class="flaticon-money"></i>
+            </div>
+        </section>
+        <!--End Request Section-->
+    
+    
+        <!--Sponsors Style-->
+        <section class="sponsors-logos">
+            <div class="container">
+                <div class="your-logo wow fadeInUp">
+                    <ul class="sponsors-slider">
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/1.png" alt=""></a>
                             </div>
-                            <a href="#"><h6>Realiable <br>& Enthusiastic</h6></a>
                         </li>
-                        <li class="item">
-                            <div class="icon-box">
-                                <i class="flaticon-trophy"></i>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/2.png" alt=""></a>
                             </div>
-                            <a href="#"><h6>Realiable <br>& Enthusiastic</h6></a>
                         </li>
-                        <li class="item">
-                            <div class="icon-box">
-                                <i class="flaticon-networking"></i>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/3.png" alt=""></a>
                             </div>
-                            <a href="#"><h6>Realiable <br>& Enthusiastic</h6></a>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/4.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/5.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/1.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/2.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/3.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/4.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="image-holder">
+                            <div class="image-box">
+                                <a href="#"><img src="images/clients/5.png" alt=""></a>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--End Welcome Section-->
-
-
-    <!--Fact Counter-->
-    <section class="fact-counter" style="background: url(images/background/1.jpg);">
-        <div class="container">
-            <div class="row clearfix">
-                <div class="counter-outer clearfix">
-                    <!--Column-->
-                    <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
-                        <div class="item">
-                            <div class="count-outer">                               
-                                <span class="count-text" data-speed="3000" data-stop="3465">0</span>
+        </section>
+        <!--End Sponsors Style-->
+    
+    
+        <!--Map Section-->
+        <section class="map-section">
+            <div class="container-fluid">
+                <div class="google-map-area">
+                    <div 
+                        class="google-map" 
+                        id="contact-google-map"
+                        data-map-lat="55.644239" 
+                        data-map-lng="12.128899" 
+                        data-icon-path="images/icons/map-marker.png" 
+                        data-map-title="Ange-Gardien, London, United Kingdom" 
+                        data-map-zoom="10"
+                        data-markers='{
+                            "marker-1": [55.644239, 12.128899, "<h4>Head Office</h4><p>Bizcon,UK</p>"]
+                        }'>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Map Section-->
+    
+    
+        <!--Main Footer-->
+        <footer class="main-footer">
+            <div class="container">
+                <div class="info-section clearfix">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-phone-call"></i>
+                                <h5>+1 (200) 345 6789</h5>
+                                <p>+1 (200) 345 6789</p>
                             </div>
-                            <h4 class="counter-title">Worldwide Trusted Clients</h4>
-                        </div>                            
-                    </article>
-                    
-                    <!--Column-->
-                    <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
-                        <div class="item">
-                            <div class="count-outer">
-                                <span class="count-text" data-speed="3000" data-stop="4908">0</span>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-note"></i>
+                                <a href="#"><h5>info@Bizcon.net</h5></a>
+                                <p>Email us for Support</p>
                             </div>
-                            <h4 class="counter-title">Projects We Delivered </h4>
                         </div>
-                    </article>
-                    
-                    <!--Column-->
-                    <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
-                        <div class="item">
-                            <div class="count-outer">
-                                <span class="count-text" data-speed="3000" data-stop="12307">0</span>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="item">
+                                <i class="flaticon-placeholder"></i>
+                                <h5>382 Hartway Street</h5>
+                                <p>382 Hartway Street</p>
                             </div>
-                            <h4 class="counter-title">Companies Consultations</h4>
                         </div>
-                    </article>
-                    
-                    <!--Column-->
-                    <article class="column counter-column col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="0ms">
-                        <div class="item">
-                            <div class="count-outer">
-                                <span class="count-text" data-speed="3000" data-stop="9643">0</span>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="row">
+                        <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
+                            <div class="about-cloumn">
+                                <div class="logo">
+                                    <figure>
+                                        <a href="index.html"><img src="images/logo-2.png" alt=""></a>
+                                    </figure>
+                                </div>
+                                <p>Consequat dui aut repahender vouptate elit cilum fugiat nulla pariatr lorem dolor git amet secter adipisic elit sed vena eus mod. Lorem ipsum dolor.</p>
+                                <p>Sit amet consectetur dipisicing elit sedo eiusmod tempor incididunt.</p>
+                                <ul class="social-links">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                </ul>
                             </div>
-                            <h4 class="counter-title">Orders in the Queue List</h4>
                         </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Fact Counter-->
-
-
-    <!--Project Section-->
-    <section class="project-section">
-        <div class="container">
-            <div class="section-title">
-                <h3>Recent Projects</h3>
-            </div>
-            <div class="project-carousel">
-                <div class="item-holder">
-                    <div class="image-box">
-                        <figure>
-                            <img src="images/project/1.jpg" alt="">
-                        </figure>
-                        <div class="image-text text-center">
-                            <h6>Financial Institutions</h6>
-                            <span>Startup Business</span>
-                        </div>
-                    </div>
-                    <div class="overly-box">
-                        <a href="#"><h6>Financial Institutions</h6></a>
-                        <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur.</p>
-                        <div class="link-btn">
-                            <a href="#">view project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-holder">
-                    <div class="image-box">
-                        <figure>
-                            <img src="images/project/2.jpg" alt="">
-                        </figure>
-                        <div class="image-text text-center">
-                            <h6>Collective Business</h6>
-                            <span>Startup Business</span>
-                        </div>
-                    </div>
-                    <div class="overly-box">
-                        <a href="#"><h6>Collective Business</h6></a>
-                        <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur.</p>
-                        <div class="link-btn">
-                            <a href="#">view project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-holder">
-                    <div class="image-box">
-                        <figure>
-                            <img src="images/project/3.jpg" alt="">
-                        </figure>
-                        <div class="image-text text-center">
-                            <h6>Data Flow Analysis</h6>
-                            <span>Startup Business</span>
-                        </div>
-                    </div>
-                    <div class="overly-box">
-                        <a href="#"><h6>Data Flow Analysis</h6></a>
-                        <p>Aliquip exa consequat dui aute repahender vouptate elit cilum fugiat nulla pariatur.</p>
-                        <div class="link-btn">
-                            <a href="#">view project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="link-btn text-center">
-                <a href="#" class="btn-style-two">all projects</a>
-            </div>
-        </div>
-    </section>
-    <!--End Project Section-->
-
-
-    <!--Our Advisors-->
-    <section class="our-advisors">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Meet Our Advisors</h3>
-                <p>Our Consultants are Industry Experts who are Bringing Unique Perspective</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="item-holder">
-                        <div class="image-box">
-                            <figure>
-                                <a href="#"><img src="images/resource/1.png" alt=""></a>
-                            </figure>
-                            <ul class="overly-box text-center">
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="image-text">
-                            <a href="#"><h6>James Sienna</h6></a>
-                            <p>Director & CEO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="item-holder">
-                        <div class="image-box">
-                            <figure>
-                                <a href="#"><img src="images/resource/2.png" alt=""></a>
-                            </figure>
-                            <ul class="overly-box text-center">
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="image-text">
-                            <a href="#"><h6>Peter Davis</h6></a>
-                            <p>Tech Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="item-holder">
-                        <div class="image-box">
-                            <figure>
-                                <a href="#"><img src="images/resource/3.png" alt=""></a>
-                            </figure>
-                            <ul class="overly-box text-center">
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="image-text">
-                            <a href="#"><h6>Catherine Matt</h6></a>
-                            <p>Partner In-Cheif</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="item-holder">
-                        <div class="image-box">
-                            <figure>
-                                <a href="#"><img src="images/resource/4.png" alt=""></a>
-                            </figure>
-                            <ul class="overly-box text-center">
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="image-text">
-                            <a href="#"><h6>Charles Luke</h6></a>
-                            <p>Senior Consultant</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Our Advisors-->
-
-
-    <!--Testimonials Section-->
-    <section class="testimonials-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12 col-xs-12">
-                    <div class="section-title">
-                        <h3>What Client’s Say</h3>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-sm-12 col-xs-12">
-                    <div class="testimonials-slide">
-                        <div class="item-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/testimonials/1.png" alt="">
-                                </figure>
-                                <div class="text">
-                                    <i class="flaticon-text-quotes"></i>
-                                    <h6>Tim Cook</h6>                                    
-                                    <span>owner</span>
+                        <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
+                            <div class="news-cloumn">
+                                <div class="sec-title">
+                                    <h6>Latest News</h6>
+                                </div>
+                                <div class="item">
+                                    <div class="image-box">
+                                        <figure>
+                                            <a href="blog-details.html"><img src="images/blog/4.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                    <div class="image-text">
+                                        <a href="blog-details.html"><h6>Teams offer successful business plans</h6></a>
+                                        <span>14 August 2017</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="image-box">
+                                        <figure>
+                                            <a href="blog-details.html"><img src="images/blog/5.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                    <div class="image-text">
+                                        <a href="blog-details.html"><h6>We have higher level of Experience</h6></a>
+                                        <span>25 August 2017</span>
+                                    </div>
                                 </div>
                             </div>
-                            <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
                         </div>
-                        <div class="item-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/testimonials/2.png" alt="">
-                                </figure>
-                                <div class="text">
-                                    <i class="flaticon-text-quotes"></i>
-                                    <h6>William Joe</h6>
-                                    <span>manager</span>
+                        <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
+                            <div class="links-cloumn">
+                                <div class="sec-title">
+                                    <h6>Quick links</h6>
                                 </div>
+                                <ul class="quick-links">
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>What We Offers</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Projects</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Latest News</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Privacy Policy</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>
+                                </ul>
                             </div>
-                            <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
                         </div>
-                        <div class="item-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/testimonials/1.png" alt="">
-                                </figure>
-                                <div class="text">
-                                    <i class="flaticon-text-quotes"></i>
-                                    <h6>Tim Cook</h6>                                    
-                                    <span>owner</span>
+                        <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
+                            <div class="newsletter-cloumn">
+                                <div class="sec-title">
+                                    <h6>Newsletter</h6>
                                 </div>
-                            </div>
-                            <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
-                        </div>
-                        <div class="item-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/testimonials/2.png" alt="">
-                                </figure>
-                                <div class="text">
-                                    <i class="flaticon-text-quotes"></i>
-                                    <h6>William Joe</h6>
-                                    <span>manager</span>
-                                </div>
-                            </div>
-                            <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
-                        </div>
-                        <div class="item-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/testimonials/1.png" alt="">
-                                </figure>
-                                <div class="text">
-                                    <i class="flaticon-text-quotes"></i>
-                                    <h6>Tim Cook</h6>                                    
-                                    <span>owner</span>
-                                </div>
-                            </div>
-                            <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
-                        </div>
-                        <div class="item-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/testimonials/2.png" alt="">
-                                </figure>
-                                <div class="text">
-                                    <i class="flaticon-text-quotes"></i>
-                                    <h6>William Joe</h6>
-                                    <span>manager</span>
-                                </div>
-                            </div>
-                            <p>Aliquip exa consequat dui aute repahender elit cilum fugiat nulla epariatur lorem dolorit secter adipisic elit sed venal eiusmod aliqua minim ad veniam quis nostrud.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Testimonials Section-->
-
-
-    <!--Call To Action-->
-    <section class="call-to-action" style="background: url(images/background/2.jpg);">
-        <div class="container">
-            <div class="text-area text-center">
-                <h6>We deliver outstanding service to every client</h6>
-                <h3>Which Leads to Greater Business Growth</h3>
-                <div class="link-btn">
-                    <a href="#" class="btn-style-two">learn more</a>
-                    <a href="#" class="btn-style-one">purchase now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Call To Action-->
-
-
-    <!--News Section-->
-    <section class="news-section">
-        <div class="container">
-            <div class="section-title text">
-                <h3>Bizcon News</h3>
-                <p>Accusantium ipsum dolore ludantium beatae</p>
-            </div>
-            <div class="two-column-carousel">
-                <div class="item-holder">
-                    <div class="image-box">
-                        <figure>
-                            <a href="blog-details.html"><img src="images/blog/1.jpg" alt=""></a>
-                        </figure>
-                    </div>
-                    <div class="image-text">
-                        <ul>
-                            <li><span>Posted</span>25 August 2017</li>
-                            <li><span><i class="fa fa-comment-o" aria-hidden="true"></i></span>217</li>
-                        </ul>
-                        <a href="blog-details.html"><h6>Digital Marketing Trends That Drive Sales</h6></a>
-                        <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
-                        <div class="link-btn">
-                            <a href="blog-details.html">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-holder">
-                    <div class="image-box">
-                        <figure>
-                            <a href="blog-details.html"><img src="images/blog/2.jpg" alt=""></a>
-                        </figure>
-                    </div>
-                    <div class="image-text">
-                        <ul>
-                            <li><span>Posted</span>25 August 2017</li>
-                            <li><span><i class="fa fa-comment-o" aria-hidden="true"></i></span>217</li>
-                        </ul>
-                        <a href="blog-details.html"><h6>Using Hashtag Effectively In Social Media</h6></a>
-                        <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
-                        <div class="link-btn">
-                            <a href="blog-details.html">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-holder">
-                    <div class="image-box">
-                        <figure>
-                            <a href="blog-details.html"><img src="images/blog/3.jpg" alt=""></a>
-                        </figure>
-                    </div>
-                    <div class="image-text">
-                        <ul>
-                            <li><span>Posted</span>25 August 2017</li>
-                            <li><span><i class="fa fa-comment-o" aria-hidden="true"></i></span>217</li>
-                        </ul>
-                        <a href="blog-details.html"><h6>Digital Marketing Trends That Drive Sales</h6></a>
-                        <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
-                        <div class="link-btn">
-                            <a href="blog-details.html">read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End News Section-->
-
-
-    <!--Request Section-->
-    <section class="request-section">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Request a Call Back</h3>
-                <p>Our Consultants are Industry Experts who are Bringing Unique Perspective</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-sm-12 col-xs-12">
-                    <div class="right-side">
-                        <h6>Thank you for your interest in Bizcon.</h6>
-                        <p>Please fill-in the form below for questions about our services & send us. Our representatives will reply you in 24 hours.</p>
-                        <form class="contact_form" name="contact_form" action="http://html.tonatheme.com/2018/Bizcon/sendmail.php" method="post">
-                            <div class="row clearfix">
-                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                <p>Get in your inbox the latest News and Offers from Bizcon.</p>
+                                <form class="contact_form" name="contact_form" action="http://html.tonatheme.com/2018/Bizcon/sendmail.php" method="post">
                                     <div class="form-group">
                                         <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name" required="">
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <input type="email" name="form_email" class="form-control" value="" placeholder="Email" required="">
                                     </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="text" name="form_subject" class="form-control" value="" placeholder="Inquiry Subject" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="form_message" class="form-control textarea required" placeholder="Subject"></textarea>
-                                    </div>
                                     <div class="form-group form-bottom">
-                                        <input name="form_botcheck" class="form-control" type="hidden" value="">
-                                        <button class="btn-style-one" type="submit" data-loading-text="Please wait...">send message</button>
+                                        <input class="form-control" type="hidden" value="">
+                                        <button class="btn-style-one" type="submit" data-loading-text="Please wait...">submit</button>
                                     </div>
-                                </div>
+                                </form>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-12 col-xs-12">
-                    <div class="image-box">
-                        <figure>
-                            <img src="images/resource/2.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Request Section-->
-
-
-    <!--Sponsors Style-->
-    <section class="sponsors-logos">
-        <div class="container">
-            <div class="your-logo wow fadeInUp">
-                <ul class="sponsors-slider">
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/1.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/2.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/3.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/4.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/5.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/1.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/2.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/3.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/4.png" alt=""></a>
-                        </div>
-                    </li>
-                    <li class="image-holder">
-                        <div class="image-box">
-                            <a href="#"><img src="images/clients/5.png" alt=""></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--End Sponsors Style-->
-
-
-    <!--Map Section-->
-    <section class="map-section">
-        <div class="container-fluid">
-            <div class="google-map-area">
-                <div 
-                    class="google-map" 
-                    id="contact-google-map"
-                    data-map-lat="55.644239" 
-                    data-map-lng="12.128899" 
-                    data-icon-path="images/icons/map-marker.png" 
-                    data-map-title="Ange-Gardien, London, United Kingdom" 
-                    data-map-zoom="10"
-                    data-markers='{
-                        "marker-1": [55.644239, 12.128899, "<h4>Head Office</h4><p>Bizcon,UK</p>"]
-                    }'>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Map Section-->
-
-
-    <!--Main Footer-->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="info-section clearfix">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-phone-call"></i>
-                            <h5>+1 (200) 345 6789</h5>
-                            <p>+1 (200) 345 6789</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-note"></i>
-                            <a href="#"><h5>info@Bizcon.net</h5></a>
-                            <p>Email us for Support</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                        <div class="item">
-                            <i class="flaticon-placeholder"></i>
-                            <h5>382 Hartway Street</h5>
-                            <p>382 Hartway Street</p>
                         </div>
                     </div>
                 </div>
+                <div class="footer-bottom text-center">
+                    <p>Copyrights 2018 <a href="index.html">Bizcon CONSULTING template</a> All rights reserved. <span><a href="#">Terms & Conditions</a></span></p>
+                </div>                
             </div>
-            <div class="footer">
-                <div class="row">
-                    <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
-                        <div class="about-cloumn">
-                            <div class="logo">
-                                <figure>
-                                    <a href="index.html"><img src="images/logo-2.png" alt=""></a>
-                                </figure>
-                            </div>
-                            <p>Consequat dui aut repahender vouptate elit cilum fugiat nulla pariatr lorem dolor git amet secter adipisic elit sed vena eus mod. Lorem ipsum dolor.</p>
-                            <p>Sit amet consectetur dipisicing elit sedo eiusmod tempor incididunt.</p>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
-                        <div class="news-cloumn">
-                            <div class="sec-title">
-                                <h6>Latest News</h6>
-                            </div>
-                            <div class="item">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="blog-details.html"><img src="images/blog/4.jpg" alt=""></a>
-                                    </figure>
-                                </div>
-                                <div class="image-text">
-                                    <a href="blog-details.html"><h6>Teams offer successful business plans</h6></a>
-                                    <span>14 August 2017</span>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="blog-details.html"><img src="images/blog/5.jpg" alt=""></a>
-                                    </figure>
-                                </div>
-                                <div class="image-text">
-                                    <a href="blog-details.html"><h6>We have higher level of Experience</h6></a>
-                                    <span>25 August 2017</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
-                        <div class="links-cloumn">
-                            <div class="sec-title">
-                                <h6>Quick links</h6>
-                            </div>
-                            <ul class="quick-links">
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>What We Offers</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Projects</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Latest News</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Privacy Policy</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cloumn col-lg-3 col-sm-6 col-xs-12">
-                        <div class="newsletter-cloumn">
-                            <div class="sec-title">
-                                <h6>Newsletter</h6>
-                            </div>
-                            <p>Get in your inbox the latest News and Offers from Bizcon.</p>
-                            <form class="contact_form" name="contact_form" action="http://html.tonatheme.com/2018/Bizcon/sendmail.php" method="post">
-                                <div class="form-group">
-                                    <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="form_email" class="form-control" value="" placeholder="Email" required="">
-                                </div>
-                                <div class="form-group form-bottom">
-                                    <input class="form-control" type="hidden" value="">
-                                    <button class="btn-style-one" type="submit" data-loading-text="Please wait...">submit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom text-center">
-                <p>Copyrights 2018 <a href="index.html">Bizcon CONSULTING template</a> All rights reserved. <span><a href="#">Terms & Conditions</a></span></p>
-            </div>                
-        </div>
-    </footer>
-    <!--End Main Footer-->
-
-
+        </footer>
+        <!--End Main Footer-->
+    
+    
+    </div>
 </div>
 <!--End pagewrapper-->
 
@@ -1094,8 +1071,8 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/html5lightbox.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
+<!-- <script src="js/jquery.fancybox.pack.js"></script> -->
+<!-- <script src="js/jquery.fancybox-media.js"></script> -->
 
 <!--Revolution Slider-->
 <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -1124,7 +1101,7 @@
 <script src="js/map-helper.js"></script>
 
 <script src="js/script.js"></script>
+
 </body>
 
-<!-- Mirrored from html.tonatheme.com/2018/Bizcon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Jul 2018 17:47:02 GMT -->
 </html>
